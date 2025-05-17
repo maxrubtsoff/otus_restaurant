@@ -1,0 +1,25 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(waiter, "Официант", "Принимает заказы от клиентов и отслеживает статусы")
+Person(kitchenStaff, "Персонал кухни", "Принимает заказы, готовит блюда и обновляет статусы")
+
+System_Boundary(waiter1CSystem, "1С: CRM Официант") {
+  Container(waiter1CApp, "Приложение 1С", "1C:Enterprise", "Конфигурация для управления заказами официантов")
+}
+
+System_Boundary(kitchen1CSystem, "1С: CRM Кухня") {
+  Container(kitchen1CApp, "Приложение 1С", "1C:Enterprise", "Конфигурация для обработки заказов на кухне")
+}
+
+Container(rabbitMQ, "RabbitMQ", "HTTP (REST over AMQP)", "Обеспечивает асинхронный обмен через REST API")
+
+Rel(waiter, waiter1CApp, "Создает заказы через интерфейс 1С")
+Rel(waiter1CApp, rabbitMQ, "Отправляет заказы", "HTTP REST")
+Rel(rabbitMQ, kitchen1CApp, "Передает заказы", "HTTP REST")
+Rel(kitchenStaff, kitchen1CApp, "Обрабатывает заказы и обновляет статусы через интерфейс 1С")
+Rel(kitchen1CApp, rabbitMQ, "Отправляет статусы", "HTTP REST")
+Rel(rabbitMQ, waiter1CApp, "Передает статусы", "HTTP REST")
+
+SHOW_LEGEND()
+@enduml

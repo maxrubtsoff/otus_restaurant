@@ -1,0 +1,72 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE "Справочник Блюда" as Dishes {
+  * Ссылка
+  --
+  Код
+  Наименование
+}
+
+RECTANGLE "Документ Заказ клиента" as CustomerOrder {
+  * Ссылка
+  --
+  Номер
+  Дата
+  Комментарий
+  НомерСтола
+}
+
+RECTANGLE "Табличная часть Заказ" as OrderItems {
+  * Блюдо
+  --
+  Количество
+  Пожелание
+}
+
+RECTANGLE "Регистр сведений СтатусыЗаказов" as OrderStatuses {
+  * Заказ
+  * Период
+  --
+  Статус
+}
+
+RECTANGLE "Документ ВходящееСообщение" as IncomingMessage {
+  * Ссылка
+  --
+  Номер
+  Дата
+  Тело
+  Обменник
+}
+
+RECTANGLE "Документ ИсходящееСообщение" as OutgoingMessage {
+  * Ссылка
+  --
+  Номер
+  Дата
+  Тело
+  Обменник
+}
+
+RECTANGLE "Регистр сведений СвязиОбъектовИСообщенийRMQ" as ObjectMessageLinks {
+  * Объект
+  * Сообщение
+  * Период
+  --
+  Направление
+  Обменник
+}
+
+' Связи
+CustomerOrder ||--o{ OrderItems
+OrderItems }o--o| Dishes : "Блюдо (СправочникСсылка.Блюда)"
+
+OrderStatuses }o--o| CustomerOrder : "ЗаказКлиента (ДокументСсылка.ЗаказКлиента)"
+
+ObjectMessageLinks }o--o| Dishes : "Объект (СправочникСсылка.Блюда)"
+ObjectMessageLinks }o--o| CustomerOrder : "Объект (ДокументСсылка.ЗаказКлиента)"
+ObjectMessageLinks }o--o| IncomingMessage : "Сообщение (ДокументСсылка.ВходящееСообщение)"
+ObjectMessageLinks }o--o| OutgoingMessage : "Сообщение (ДокументСсылка.ИсходящееСообщение)"
+
+@enduml
