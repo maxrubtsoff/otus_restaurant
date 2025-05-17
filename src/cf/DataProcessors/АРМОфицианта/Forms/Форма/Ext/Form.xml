@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа4" id="46">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="47"/>
+			<ChildItems>
+				<Button name="ФормаОбновить" id="41">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Обновить</CommandName>
+					<Shape>Oval</Shape>
+					<ShapeRepresentation>WhenActive</ShapeRepresentation>
+					<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="42"/>
+				</Button>
+				<LabelDecoration name="Декорация46" id="310">
+					<ContextMenu name="Декорация46КонтекстноеМеню" id="311"/>
+					<ExtendedTooltip name="Декорация46РасширеннаяПодсказка" id="312"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация47" id="313">
+					<ContextMenu name="Декорация47КонтекстноеМеню" id="314"/>
+					<ExtendedTooltip name="Декорация47РасширеннаяПодсказка" id="315"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа11" id="134">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="135"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация17" id="128">
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleEmpty</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация17КонтекстноеМеню" id="129"/>
+							<ExtendedTooltip name="Декорация17РасширеннаяПодсказка" id="130"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация18" id="131">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>- 2</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация18КонтекстноеМеню" id="132"/>
+							<ExtendedTooltip name="Декорация18РасширеннаяПодсказка" id="133"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация44" id="304">
+					<ContextMenu name="Декорация44КонтекстноеМеню" id="305"/>
+					<ExtendedTooltip name="Декорация44РасширеннаяПодсказка" id="306"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация45" id="307">
+					<ContextMenu name="Декорация45КонтекстноеМеню" id="308"/>
+					<ExtendedTooltip name="Декорация45РасширеннаяПодсказка" id="309"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа12" id="136">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="137"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация19" id="138">
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleYellow</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация19КонтекстноеМеню" id="139"/>
+							<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="140"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация20" id="141">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>- 2</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация20КонтекстноеМеню" id="142"/>
+							<ExtendedTooltip name="Декорация20РасширеннаяПодсказка" id="143"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация42" id="298">
+					<ContextMenu name="Декорация42КонтекстноеМеню" id="299"/>
+					<ExtendedTooltip name="Декорация42РасширеннаяПодсказка" id="300"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация43" id="301">
+					<ContextMenu name="Декорация43КонтекстноеМеню" id="302"/>
+					<ExtendedTooltip name="Декорация43РасширеннаяПодсказка" id="303"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа13" id="144">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа13РасширеннаяПодсказка" id="145"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация21" id="146">
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleRed</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация21КонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="Декорация21РасширеннаяПодсказка" id="148"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация22" id="149">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>- 1</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация22КонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="Декорация22РасширеннаяПодсказка" id="151"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация41" id="295">
+					<ContextMenu name="Декорация41КонтекстноеМеню" id="296"/>
+					<ExtendedTooltip name="Декорация41РасширеннаяПодсказка" id="297"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация40" id="292">
+					<ContextMenu name="Декорация40КонтекстноеМеню" id="293"/>
+					<ExtendedTooltip name="Декорация40РасширеннаяПодсказка" id="294"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа20" id="284">
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа20РасширеннаяПодсказка" id="285"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация38" id="286">
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Picture>
+								<xr:Ref>StdPicture.AppearanceCircleGreen</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация38КонтекстноеМеню" id="287"/>
+							<ExtendedTooltip name="Декорация38РасширеннаяПодсказка" id="288"/>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация39" id="289">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>- 1</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация39КонтекстноеМеню" id="290"/>
+							<ExtendedTooltip name="Декорация39РасширеннаяПодсказка" id="291"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Декорация48" id="324">
+					<ContextMenu name="Декорация48КонтекстноеМеню" id="325"/>
+					<ExtendedTooltip name="Декорация48РасширеннаяПодсказка" id="326"/>
+				</LabelDecoration>
+				<LabelDecoration name="Декорация49" id="327">
+					<ContextMenu name="Декорация49КонтекстноеМеню" id="328"/>
+					<ExtendedTooltip name="Декорация49РасширеннаяПодсказка" id="329"/>
+				</LabelDecoration>
+				<CommandBar name="Группа21" id="330">
+					<ExtendedTooltip name="Группа21РасширеннаяПодсказка" id="331"/>
+					<ChildItems>
+						<Popup name="Группа22" id="332">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сортировка</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сортировка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+							<Picture>
+								<xr:Ref>StdPicture.SortList</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<Representation>PictureAndText</Representation>
+							<Shape>Oval</Shape>
+							<ShapeRepresentation>WhenActive</ShapeRepresentation>
+							<ExtendedTooltip name="Группа22РасширеннаяПодсказка" id="333"/>
+							<ChildItems>
+								<Button name="Отсортировать" id="322">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ПоСтолу</CommandName>
+									<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+									<Shape>Oval</Shape>
+									<ShapeRepresentation>WhenActive</ShapeRepresentation>
+									<ExtendedTooltip name="ОтсортироватьРасширеннаяПодсказка" id="323"/>
+								</Button>
+								<Button name="ПоСтолу1" id="334">
+									<Type>CommandBarButton</Type>
+									<CommandName>Form.Command.ПоСтолу1</CommandName>
+									<Shape>Oval</Shape>
+									<ShapeRepresentation>WhenActive</ShapeRepresentation>
+									<ExtendedTooltip name="ПоСтолу1РасширеннаяПодсказка" id="335"/>
+								</Button>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</CommandBar>
+				<LabelDecoration name="Декорация6" id="43">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего заказов: 6</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<ContextMenu name="Декорация6КонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="45"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа1" id="1">
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Группа7" id="86">
+					<VerticalStretch>false</VerticalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="87"/>
+					<ChildItems>
+						<UsualGroup name="Группа2" id="3">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>style:ReportGroup2BackColor</BackColor>
+							<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="4"/>
+							<ChildItems>
+								<UsualGroup name="Группа3" id="30">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="31"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация3" id="32">
+											<ContextMenu name="Декорация3КонтекстноеМеню" id="33"/>
+											<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="34"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация4" id="35">
+											<ContextMenu name="Декорация4КонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="37"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация1" id="5">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>5</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="6"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="7"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация2" id="8">
+											<TextColor>#FFCC00</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Готовится</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация2КонтекстноеМеню" id="9"/>
+											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="10"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация5" id="38">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация5КонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="40"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда" id="11">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда1</DataPath>
+									<BackColor>style:ToolTipBackColor</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="БлюдаКонтекстноеМеню" id="12"/>
+									<AutoCommandBar name="БлюдаКоманднаяПанель" id="13">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="БлюдаРасширеннаяПодсказка" id="14"/>
+									<SearchStringAddition name="БлюдаСтрокаПоиска" id="15">
+										<AdditionSource>
+											<Item>Блюда</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="БлюдаСтрокаПоискаКонтекстноеМеню" id="16"/>
+										<ExtendedTooltip name="БлюдаСтрокаПоискаРасширеннаяПодсказка" id="17"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="БлюдаСостояниеПросмотра" id="18">
+										<AdditionSource>
+											<Item>Блюда</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="БлюдаСостояниеПросмотраКонтекстноеМеню" id="19"/>
+										<ExtendedTooltip name="БлюдаСостояниеПросмотраРасширеннаяПодсказка" id="20"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="БлюдаУправлениеПоиском" id="21">
+										<AdditionSource>
+											<Item>Блюда</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="БлюдаУправлениеПоискомКонтекстноеМеню" id="22"/>
+										<ExtendedTooltip name="БлюдаУправлениеПоискомРасширеннаяПодсказка" id="23"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="БлюдаБлюдо" id="24">
+											<DataPath>Блюда1.Блюдо</DataPath>
+											<TitleBackColor>style:ToolTipBackColor</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="БлюдаБлюдоКонтекстноеМеню" id="25"/>
+											<ExtendedTooltip name="БлюдаБлюдоРасширеннаяПодсказка" id="26"/>
+										</InputField>
+										<InputField name="БлюдаКоличество" id="27">
+											<DataPath>Блюда1.Количество</DataPath>
+											<TitleBackColor>style:ToolTipBackColor</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="БлюдаКоличествоКонтекстноеМеню" id="28"/>
+											<ExtendedTooltip name="БлюдаКоличествоРасширеннаяПодсказка" id="29"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа23" id="339">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа23РасширеннаяПодсказка" id="340"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация58" id="372">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация58КонтекстноеМеню" id="373"/>
+											<ExtendedTooltip name="Декорация58РасширеннаяПодсказка" id="374"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация57" id="369">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Светлаков</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация57КонтекстноеМеню" id="370"/>
+											<ExtendedTooltip name="Декорация57РасширеннаяПодсказка" id="371"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация50" id="336">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>14:02</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>готовится уже</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация50КонтекстноеМеню" id="337"/>
+											<ExtendedTooltip name="Декорация50РасширеннаяПодсказка" id="338">
+												<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											</ExtendedTooltip>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа5" id="48">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>#FBE6DC</BackColor>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="49"/>
+							<ChildItems>
+								<UsualGroup name="Группа6" id="50">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="51"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация7" id="52">
+											<ContextMenu name="Декорация7КонтекстноеМеню" id="53"/>
+											<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="54"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация8" id="55">
+											<ContextMenu name="Декорация8КонтекстноеМеню" id="56"/>
+											<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="57"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация9" id="58">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>9</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация9КонтекстноеМеню" id="59"/>
+											<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="60"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация10" id="61">
+											<TextColor>style:ЦветТекстаОшибочногоСостояния</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Готов</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация10КонтекстноеМеню" id="62"/>
+											<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="63"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация11" id="64">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация11КонтекстноеМеню" id="65"/>
+											<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="66"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда1" id="67">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда2</DataPath>
+									<BackColor>#FFD5BF</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Блюда1КонтекстноеМеню" id="68"/>
+									<AutoCommandBar name="Блюда1КоманднаяПанель" id="69">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Блюда1РасширеннаяПодсказка" id="70"/>
+									<SearchStringAddition name="Блюда1СтрокаПоиска" id="71">
+										<AdditionSource>
+											<Item>Блюда1</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда1СтрокаПоискаКонтекстноеМеню" id="72"/>
+										<ExtendedTooltip name="Блюда1СтрокаПоискаРасширеннаяПодсказка" id="73"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Блюда1СостояниеПросмотра" id="74">
+										<AdditionSource>
+											<Item>Блюда1</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда1СостояниеПросмотраКонтекстноеМеню" id="75"/>
+										<ExtendedTooltip name="Блюда1СостояниеПросмотраРасширеннаяПодсказка" id="76"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Блюда1УправлениеПоиском" id="77">
+										<AdditionSource>
+											<Item>Блюда1</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда1УправлениеПоискомКонтекстноеМеню" id="78"/>
+										<ExtendedTooltip name="Блюда1УправлениеПоискомРасширеннаяПодсказка" id="79"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Блюда1Блюдо" id="190">
+											<DataPath>Блюда2.Блюдо</DataPath>
+											<TitleBackColor>#FFD5BF</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#FFD5BF</BackColor>
+											<ContextMenu name="Блюда1БлюдоКонтекстноеМеню" id="191"/>
+											<ExtendedTooltip name="Блюда1БлюдоРасширеннаяПодсказка" id="192"/>
+										</InputField>
+										<InputField name="Блюда1Количество" id="193">
+											<DataPath>Блюда2.Количество</DataPath>
+											<TitleBackColor>#FFD5BF</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#FFD5BF</BackColor>
+											<ContextMenu name="Блюда1КоличествоКонтекстноеМеню" id="194"/>
+											<ExtendedTooltip name="Блюда1КоличествоРасширеннаяПодсказка" id="195"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа24" id="341">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа24РасширеннаяПодсказка" id="342"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация59" id="375">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация59КонтекстноеМеню" id="376"/>
+											<ExtendedTooltip name="Декорация59РасширеннаяПодсказка" id="377"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация60" id="378">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Тихонова</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация60КонтекстноеМеню" id="379"/>
+											<ExtendedTooltip name="Декорация60РасширеннаяПодсказка" id="380"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация51" id="343">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>0:23</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ожидает уже</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация51КонтекстноеМеню" id="344"/>
+											<ExtendedTooltip name="Декорация51РасширеннаяПодсказка" id="345"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа16" id="208">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>#F5F5F5</BackColor>
+							<ExtendedTooltip name="Группа16РасширеннаяПодсказка" id="209"/>
+							<ChildItems>
+								<UsualGroup name="Группа17" id="210">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа17РасширеннаяПодсказка" id="211"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация28" id="212">
+											<ContextMenu name="Декорация28КонтекстноеМеню" id="213"/>
+											<ExtendedTooltip name="Декорация28РасширеннаяПодсказка" id="214"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация29" id="215">
+											<ContextMenu name="Декорация29КонтекстноеМеню" id="216"/>
+											<ExtendedTooltip name="Декорация29РасширеннаяПодсказка" id="217"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация30" id="218">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>6</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация30КонтекстноеМеню" id="219"/>
+											<ExtendedTooltip name="Декорация30РасширеннаяПодсказка" id="220"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация31" id="221">
+											<TextColor>style:FormTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Получен на кухне</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация31КонтекстноеМеню" id="222"/>
+											<ExtendedTooltip name="Декорация31РасширеннаяПодсказка" id="223"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация32" id="224">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация32КонтекстноеМеню" id="225"/>
+											<ExtendedTooltip name="Декорация32РасширеннаяПодсказка" id="226"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда4" id="227">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда5</DataPath>
+									<BackColor>#E1E1E1</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Блюда4КонтекстноеМеню" id="228"/>
+									<AutoCommandBar name="Блюда4КоманднаяПанель" id="229">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Блюда4РасширеннаяПодсказка" id="230"/>
+									<SearchStringAddition name="Блюда4СтрокаПоиска" id="231">
+										<AdditionSource>
+											<Item>Блюда4</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда4СтрокаПоискаКонтекстноеМеню" id="232"/>
+										<ExtendedTooltip name="Блюда4СтрокаПоискаРасширеннаяПодсказка" id="233"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Блюда4СостояниеПросмотра" id="234">
+										<AdditionSource>
+											<Item>Блюда4</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда4СостояниеПросмотраКонтекстноеМеню" id="235"/>
+										<ExtendedTooltip name="Блюда4СостояниеПросмотраРасширеннаяПодсказка" id="236"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Блюда4УправлениеПоиском" id="237">
+										<AdditionSource>
+											<Item>Блюда4</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда4УправлениеПоискомКонтекстноеМеню" id="238"/>
+										<ExtendedTooltip name="Блюда4УправлениеПоискомРасширеннаяПодсказка" id="239"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Блюда4Блюдо" id="240">
+											<DataPath>Блюда5.Блюдо</DataPath>
+											<TitleBackColor>#E1E1E1</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#E1E1E1</BackColor>
+											<ContextMenu name="Блюда4БлюдоКонтекстноеМеню" id="241"/>
+											<ExtendedTooltip name="Блюда4БлюдоРасширеннаяПодсказка" id="242"/>
+										</InputField>
+										<InputField name="Блюда4Количество" id="243">
+											<DataPath>Блюда5.Количество</DataPath>
+											<TitleBackColor>#E1E1E1</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#E1E1E1</BackColor>
+											<ContextMenu name="Блюда4КоличествоКонтекстноеМеню" id="244"/>
+											<ExtendedTooltip name="Блюда4КоличествоРасширеннаяПодсказка" id="245"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа25" id="346">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа25РасширеннаяПодсказка" id="347"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация62" id="384">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация62КонтекстноеМеню" id="385"/>
+											<ExtendedTooltip name="Декорация62РасширеннаяПодсказка" id="386"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация61" id="381">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Власов</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация61КонтекстноеМеню" id="382"/>
+											<ExtendedTooltip name="Декорация61РасширеннаяПодсказка" id="383"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация52" id="348">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1:01</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ожидает готовки уже</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация52КонтекстноеМеню" id="349"/>
+											<ExtendedTooltip name="Декорация52РасширеннаяПодсказка" id="350"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа18" id="246">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>#D3FBCF</BackColor>
+							<ExtendedTooltip name="Группа18РасширеннаяПодсказка" id="247"/>
+							<ChildItems>
+								<UsualGroup name="Группа19" id="248">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа19РасширеннаяПодсказка" id="249"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация33" id="250">
+											<ContextMenu name="Декорация33КонтекстноеМеню" id="251"/>
+											<ExtendedTooltip name="Декорация33РасширеннаяПодсказка" id="252"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация34" id="253">
+											<ContextMenu name="Декорация34КонтекстноеМеню" id="254"/>
+											<ExtendedTooltip name="Декорация34РасширеннаяПодсказка" id="255"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация35" id="256">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>2</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация35КонтекстноеМеню" id="257"/>
+											<ExtendedTooltip name="Декорация35РасширеннаяПодсказка" id="258"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация36" id="259">
+											<TextColor>style:ЦветТекстаНормальногоСостояния</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Подан</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация36КонтекстноеМеню" id="260"/>
+											<ExtendedTooltip name="Декорация36РасширеннаяПодсказка" id="261"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация37" id="262">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация37КонтекстноеМеню" id="263"/>
+											<ExtendedTooltip name="Декорация37РасширеннаяПодсказка" id="264"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда5" id="265">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда6</DataPath>
+									<BackColor>#ABF9B4</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Блюда5КонтекстноеМеню" id="266"/>
+									<AutoCommandBar name="Блюда5КоманднаяПанель" id="267">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Блюда5РасширеннаяПодсказка" id="268"/>
+									<SearchStringAddition name="Блюда5СтрокаПоиска" id="269">
+										<AdditionSource>
+											<Item>Блюда5</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда5СтрокаПоискаКонтекстноеМеню" id="270"/>
+										<ExtendedTooltip name="Блюда5СтрокаПоискаРасширеннаяПодсказка" id="271"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Блюда5СостояниеПросмотра" id="272">
+										<AdditionSource>
+											<Item>Блюда5</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда5СостояниеПросмотраКонтекстноеМеню" id="273"/>
+										<ExtendedTooltip name="Блюда5СостояниеПросмотраРасширеннаяПодсказка" id="274"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Блюда5УправлениеПоиском" id="275">
+										<AdditionSource>
+											<Item>Блюда5</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда5УправлениеПоискомКонтекстноеМеню" id="276"/>
+										<ExtendedTooltip name="Блюда5УправлениеПоискомРасширеннаяПодсказка" id="277"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Блюда5Блюдо" id="316">
+											<DataPath>Блюда6.Блюдо</DataPath>
+											<TitleBackColor>#ABF9B4</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#ABF9B4</BackColor>
+											<ContextMenu name="Блюда5БлюдоКонтекстноеМеню" id="317"/>
+											<ExtendedTooltip name="Блюда5БлюдоРасширеннаяПодсказка" id="318"/>
+										</InputField>
+										<InputField name="Блюда5Количество" id="319">
+											<DataPath>Блюда6.Количество</DataPath>
+											<TitleBackColor>#ABF9B4</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#ABF9B4</BackColor>
+											<ContextMenu name="Блюда5КоличествоКонтекстноеМеню" id="320"/>
+											<ExtendedTooltip name="Блюда5КоличествоРасширеннаяПодсказка" id="321"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа26" id="351">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа26РасширеннаяПодсказка" id="352"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация68" id="402">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация68КонтекстноеМеню" id="403"/>
+											<ExtendedTooltip name="Декорация68РасширеннаяПодсказка" id="404"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация67" id="399">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Андреева</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация67КонтекстноеМеню" id="400"/>
+											<ExtendedTooltip name="Декорация67РасширеннаяПодсказка" id="401"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация53" id="353">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>18:20</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>подан в</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация53КонтекстноеМеню" id="354"/>
+											<ExtendedTooltip name="Декорация53РасширеннаяПодсказка" id="355"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа8" id="88">
+					<VerticalStretch>false</VerticalStretch>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="89"/>
+					<ChildItems>
+						<UsualGroup name="Группа9" id="90">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>#F5F5F5</BackColor>
+							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="91"/>
+							<ChildItems>
+								<UsualGroup name="Группа10" id="92">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="93"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация12" id="94">
+											<ContextMenu name="Декорация12КонтекстноеМеню" id="95"/>
+											<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="96"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация13" id="97">
+											<ContextMenu name="Декорация13КонтекстноеМеню" id="98"/>
+											<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="99"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация14" id="100">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>1</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация14КонтекстноеМеню" id="101"/>
+											<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="102"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация15" id="103">
+											<TextColor>style:FormTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Получен на кухне</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация15КонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="Декорация15РасширеннаяПодсказка" id="105"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация16" id="106">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация16КонтекстноеМеню" id="107"/>
+											<ExtendedTooltip name="Декорация16РасширеннаяПодсказка" id="108"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда2" id="109">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда3</DataPath>
+									<BackColor>#E1E1E1</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Блюда2КонтекстноеМеню" id="110"/>
+									<AutoCommandBar name="Блюда2КоманднаяПанель" id="111">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Блюда2РасширеннаяПодсказка" id="112"/>
+									<SearchStringAddition name="Блюда2СтрокаПоиска" id="113">
+										<AdditionSource>
+											<Item>Блюда2</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда2СтрокаПоискаКонтекстноеМеню" id="114"/>
+										<ExtendedTooltip name="Блюда2СтрокаПоискаРасширеннаяПодсказка" id="115"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Блюда2СостояниеПросмотра" id="116">
+										<AdditionSource>
+											<Item>Блюда2</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда2СостояниеПросмотраКонтекстноеМеню" id="117"/>
+										<ExtendedTooltip name="Блюда2СостояниеПросмотраРасширеннаяПодсказка" id="118"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Блюда2УправлениеПоиском" id="119">
+										<AdditionSource>
+											<Item>Блюда2</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда2УправлениеПоискомКонтекстноеМеню" id="120"/>
+										<ExtendedTooltip name="Блюда2УправлениеПоискомРасширеннаяПодсказка" id="121"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Блюда2Блюдо" id="196">
+											<DataPath>Блюда3.Блюдо</DataPath>
+											<TitleBackColor>#E1E1E1</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#E1E1E1</BackColor>
+											<ContextMenu name="Блюда2БлюдоКонтекстноеМеню" id="197"/>
+											<ExtendedTooltip name="Блюда2БлюдоРасширеннаяПодсказка" id="198"/>
+										</InputField>
+										<InputField name="Блюда2Количество" id="199">
+											<DataPath>Блюда3.Количество</DataPath>
+											<TitleBackColor>#E1E1E1</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>#E1E1E1</BackColor>
+											<ContextMenu name="Блюда2КоличествоКонтекстноеМеню" id="200"/>
+											<ExtendedTooltip name="Блюда2КоличествоРасширеннаяПодсказка" id="201"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа27" id="359">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа27РасширеннаяПодсказка" id="360"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация64" id="390">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация64КонтекстноеМеню" id="391"/>
+											<ExtendedTooltip name="Декорация64РасширеннаяПодсказка" id="392"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация63" id="387">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Леонов</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация63КонтекстноеМеню" id="388"/>
+											<ExtendedTooltip name="Декорация63РасширеннаяПодсказка" id="389"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация55" id="361">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>0:12</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ожидает готовки уже</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация55КонтекстноеМеню" id="362"/>
+											<ExtendedTooltip name="Декорация55РасширеннаяПодсказка" id="363"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа14" id="152">
+							<Width>35</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<BackColor>style:ReportGroup2BackColor</BackColor>
+							<ExtendedTooltip name="Группа14РасширеннаяПодсказка" id="153"/>
+							<ChildItems>
+								<UsualGroup name="Группа15" id="154">
+									<HorizontalStretch>true</HorizontalStretch>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа15РасширеннаяПодсказка" id="155"/>
+									<ChildItems>
+										<LabelDecoration name="Декорация23" id="156">
+											<ContextMenu name="Декорация23КонтекстноеМеню" id="157"/>
+											<ExtendedTooltip name="Декорация23РасширеннаяПодсказка" id="158"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация24" id="159">
+											<ContextMenu name="Декорация24КонтекстноеМеню" id="160"/>
+											<ExtendedTooltip name="Декорация24РасширеннаяПодсказка" id="161"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация25" id="162">
+											<Font ref="style:NormalTextFont" height="26" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>3</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация25КонтекстноеМеню" id="163"/>
+											<ExtendedTooltip name="Декорация25РасширеннаяПодсказка" id="164"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация26" id="165">
+											<TextColor>#FFCC00</TextColor>
+											<Font ref="style:NormalTextFont" height="13" kind="StyleItem" scale="100"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Готовится</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<Hyperlink>true</Hyperlink>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация26КонтекстноеМеню" id="166"/>
+											<ExtendedTooltip name="Декорация26РасширеннаяПодсказка" id="167"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация27" id="168">
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<ContextMenu name="Декорация27КонтекстноеМеню" id="169"/>
+											<ExtendedTooltip name="Декорация27РасширеннаяПодсказка" id="170"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<Table name="Блюда3" id="171">
+									<Representation>List</Representation>
+									<HeightInTableRows>5</HeightInTableRows>
+									<RowSelectionMode>Row</RowSelectionMode>
+									<VerticalScrollBar>DontUse</VerticalScrollBar>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<VerticalStretch>false</VerticalStretch>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Блюда4</DataPath>
+									<BackColor>style:ToolTipBackColor</BackColor>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="Блюда3КонтекстноеМеню" id="172"/>
+									<AutoCommandBar name="Блюда3КоманднаяПанель" id="173">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="Блюда3РасширеннаяПодсказка" id="174"/>
+									<SearchStringAddition name="Блюда3СтрокаПоиска" id="175">
+										<AdditionSource>
+											<Item>Блюда3</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда3СтрокаПоискаКонтекстноеМеню" id="176"/>
+										<ExtendedTooltip name="Блюда3СтрокаПоискаРасширеннаяПодсказка" id="177"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="Блюда3СостояниеПросмотра" id="178">
+										<AdditionSource>
+											<Item>Блюда3</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда3СостояниеПросмотраКонтекстноеМеню" id="179"/>
+										<ExtendedTooltip name="Блюда3СостояниеПросмотраРасширеннаяПодсказка" id="180"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="Блюда3УправлениеПоиском" id="181">
+										<AdditionSource>
+											<Item>Блюда3</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="Блюда3УправлениеПоискомКонтекстноеМеню" id="182"/>
+										<ExtendedTooltip name="Блюда3УправлениеПоискомРасширеннаяПодсказка" id="183"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="Блюда3Блюдо" id="202">
+											<DataPath>Блюда4.Блюдо</DataPath>
+											<TitleBackColor>style:ToolTipBackColor</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="Блюда3БлюдоКонтекстноеМеню" id="203"/>
+											<ExtendedTooltip name="Блюда3БлюдоРасширеннаяПодсказка" id="204"/>
+										</InputField>
+										<InputField name="Блюда3Количество" id="205">
+											<DataPath>Блюда4.Количество</DataPath>
+											<TitleBackColor>style:ToolTipBackColor</TitleBackColor>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<BackColor>style:ToolTipBackColor</BackColor>
+											<ContextMenu name="Блюда3КоличествоКонтекстноеМеню" id="206"/>
+											<ExtendedTooltip name="Блюда3КоличествоРасширеннаяПодсказка" id="207"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа28" id="364">
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа28РасширеннаяПодсказка" id="365"/>
+									<ChildItems>
+										<PictureDecoration name="Декорация66" id="396">
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Picture>
+												<xr:Ref>StdPicture.GroupConversation</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="Декорация66КонтекстноеМеню" id="397"/>
+											<ExtendedTooltip name="Декорация66РасширеннаяПодсказка" id="398"/>
+										</PictureDecoration>
+										<LabelDecoration name="Декорация65" id="393">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дмитриева</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<ContextMenu name="Декорация65КонтекстноеМеню" id="394"/>
+											<ExtendedTooltip name="Декорация65РасширеннаяПодсказка" id="395"/>
+										</LabelDecoration>
+										<LabelDecoration name="Декорация56" id="366">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>4:11</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>готовится уже</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
+											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											<ContextMenu name="Декорация56КонтекстноеМеню" id="367"/>
+											<ExtendedTooltip name="Декорация56РасширеннаяПодсказка" id="368">
+												<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+											</ExtendedTooltip>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.АРМОфицианта</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="НомерСтола" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер стола</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Блюда1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Блюда2" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Блюда3" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Блюда4" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Блюда5" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Блюда6" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блюда1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Блюдо" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Блюдо</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Блюда</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Обновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Редактировать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Change</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ПоСтолу" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По столу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По столу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ПоСтолу1" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По статусу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>По столу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>
